@@ -35,10 +35,10 @@ public class Main {
         for (int i = 0; i < namesa.size(); i++) {
             namesc.add(iteratorA.next());
             namesc.add(iteratorB.next());
-            Collections.sort(namesc);
-
+            Collections.sort(namesc,new LenghFirstCom());
+            System.out.println(namesc);
         }
-        System.out.println(namesc);
     }
 }
+
 
